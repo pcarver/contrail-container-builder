@@ -1,4 +1,5 @@
 #!/bin/bash
+set -xe
 # Internal script for parsing common.env. Run by other executable scripts
 
 env_dir="${BASH_SOURCE%/*}"
