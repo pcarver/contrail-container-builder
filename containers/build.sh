@@ -1,4 +1,5 @@
 #!/bin/bash
+set -xe
 # Builds containers. Parses common.env to take CONTRAIL_REGISTRY, CONTRAIL_REPOSITORY, CONTRAIL_VERSION or takes them from
 # environment.
 # Parameters:
